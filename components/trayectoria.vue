@@ -27,7 +27,7 @@
                         <p>2011 - 2014</p>
                     </div>
                     <div>
-                        <font-awesome-layers class="fa-2x">
+                        <font-awesome-layers class="fa-2x has-text-primary">
                             <font-awesome-icon :icon="faCircle"  />
                         </font-awesome-layers>
                     </div>
@@ -102,7 +102,7 @@
                         <p>2016</p>
                     </div>
                     <div>
-                        <font-awesome-layers class="fa-2x">
+                        <font-awesome-layers class="fa-2x has-text-primary">
                             <font-awesome-icon :icon="faCircle"  />
                         </font-awesome-layers>
                     </div>
@@ -130,7 +130,7 @@
                         <p>2017</p>
                     </div>
                     <div>
-                        <font-awesome-layers class="fa-2x">
+                        <font-awesome-layers class="fa-2x has-text-primary">
                             <font-awesome-icon :icon="faCircle"  />
                         </font-awesome-layers>
                     </div>
@@ -203,7 +203,7 @@
                         <p>2019</p>
                     </div>
                     <div>
-                        <font-awesome-layers class="fa-2x">
+                        <font-awesome-layers class="fa-2x has-text-primary">
                             <font-awesome-icon :icon="faCircle"  />
                         </font-awesome-layers>
                     </div>
@@ -231,7 +231,7 @@
                         <p>2020</p>
                     </div>
                     <div>
-                        <font-awesome-layers class="fa-2x">
+                        <font-awesome-layers class="fa-2x has-text-primary">
                             <font-awesome-icon :icon="faCircle"  />
                         </font-awesome-layers>
                     </div>
