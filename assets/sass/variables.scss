@@ -1,0 +1,29 @@
+@import "~bulma/sass/utilities/_all";
+// $primary : #4319b6;
+$primary : #f71e1e;
+$body-size: 14px;
+// $secondary : #371575;
+$family-primary: 'Roboto', $family-sans-serif;
+$primary-invert: findColorInvert($primary);
+$primary-light: findLightColor($primary);
+$colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $light-invert),
+    "dark": ($dark, $dark-invert),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert),
+);
+
+// Navbar Variables
+// https://bulma.io/documentation/components/navbar/
+
+$navbar-box-shadow-size: 0 0 0 0;
+$navbar-height: 7.25rem;
+
+$footer-background-color: #20424f;
+$footer-padding: 2rem 1.5rem;
+$footer-color: #FFF;

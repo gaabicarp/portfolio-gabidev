@@ -2,16 +2,26 @@
   "name": "gabidev",
   "version": "1.0.0",
   "private": true,
+  "main": "assets/sass/mystyles.scss",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
+    "css-watch": "npm run css-build -- --watch"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
     "nuxt-buefy": "^0.4.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "bulma": "^0.9.2",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.0"
+  }
 }
